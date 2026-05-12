@@ -1,0 +1,231 @@
+PORTFOLIO-WEBSITE/
+│
+├── client/                                   # React Frontend
+│
+│   ├── public/
+│   │   ├── favicon.ico
+│   │   ├── resume.pdf
+│   │   └── robots.txt
+│   │
+│   ├── src/
+│   │
+│   │   ├── assets/
+│   │   │
+│   │   │   ├── images/
+│   │   │   │   ├── profile.png
+│   │   │   │   ├── hero-bg.png
+│   │   │   │   ├── project1.png
+│   │   │   │   ├── project2.png
+│   │   │   │   └── logo.png
+│   │   │   │
+│   │   │   ├── icons/
+│   │   │   │   ├── react.svg
+│   │   │   │   ├── node.svg
+│   │   │   │   ├── mongodb.svg
+│   │   │   │   └── tailwind.svg
+│   │   │   │
+│   │   │   └── animations/
+│   │   │       ├── particles.json
+│   │   │       └── glow.json
+│   │   │
+│   │   ├── components/
+│   │   │
+│   │   │   ├── common/
+│   │   │   │   ├── Button.jsx
+│   │   │   │   ├── Loader.jsx
+│   │   │   │   ├── SectionTitle.jsx
+│   │   │   │   ├── Card.jsx
+│   │   │   │   └── ScrollToTop.jsx
+│   │   │   │
+│   │   │   ├── navbar/
+│   │   │   │   ├── Navbar.jsx
+│   │   │   │   ├── MobileMenu.jsx
+│   │   │   │   └── NavLinks.jsx
+│   │   │   │
+│   │   │   ├── hero/
+│   │   │   │   ├── Hero.jsx
+│   │   │   │   ├── HeroContent.jsx
+│   │   │   │   ├── TypingText.jsx
+│   │   │   │   ├── SocialIcons.jsx
+│   │   │   │   └── HeroButtons.jsx
+│   │   │   │
+│   │   │   ├── about/
+│   │   │   │   ├── About.jsx
+│   │   │   │   ├── AboutCard.jsx
+│   │   │   │   └── Education.jsx
+│   │   │   │
+│   │   │   ├── skills/
+│   │   │   │   ├── Skills.jsx
+│   │   │   │   ├── SkillCard.jsx
+│   │   │   │   ├── FrontendSkills.jsx
+│   │   │   │   ├── BackendSkills.jsx
+│   │   │   │   └── ToolsSkills.jsx
+│   │   │   │
+│   │   │   ├── projects/
+│   │   │   │   ├── Projects.jsx
+│   │   │   │   ├── ProjectCard.jsx
+│   │   │   │   ├── ProjectModal.jsx
+│   │   │   │   └── ProjectFilter.jsx
+│   │   │   │
+│   │   │   ├── ai/
+│   │   │   │   ├── AIJourney.jsx
+│   │   │   │   ├── AISection.jsx
+│   │   │   │   └── LearningTimeline.jsx
+│   │   │   │
+│   │   │   ├── experience/
+│   │   │   │   ├── Experience.jsx
+│   │   │   │   └── Timeline.jsx
+│   │   │   │
+│   │   │   ├── contact/
+│   │   │   │   ├── Contact.jsx
+│   │   │   │   ├── ContactForm.jsx
+│   │   │   │   ├── ContactInfo.jsx
+│   │   │   │   └── Map.jsx
+│   │   │   │
+│   │   │   ├── footer/
+│   │   │   │   └── Footer.jsx
+│   │   │   │
+│   │   │   ├── background/
+│   │   │   │   ├── AnimatedBackground.jsx
+│   │   │   │   ├── GlowEffect.jsx
+│   │   │   │   ├── Stars.jsx
+│   │   │   │   └── Particles.jsx
+│   │   │   │
+│   │   │   └── admin/
+│   │   │       ├── AdminSidebar.jsx
+│   │   │       ├── AdminNavbar.jsx
+│   │   │       ├── DashboardCards.jsx
+│   │   │       ├── ManageProjects.jsx
+│   │   │       ├── ManageMessages.jsx
+│   │   │       └── UploadProject.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── AboutPage.jsx
+│   │   │   ├── ProjectsPage.jsx
+│   │   │   ├── ContactPage.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── AdminLogin.jsx
+│   │   │   └── NotFound.jsx
+│   │   │
+│   │   ├── layouts/
+│   │   │   ├── MainLayout.jsx
+│   │   │   └── DashboardLayout.jsx
+│   │   │
+│   │   ├── routes/
+│   │   │   ├── AppRoutes.jsx
+│   │   │   ├── ProtectedRoute.jsx
+│   │   │   └── AdminRoute.jsx
+│   │   │
+│   │   ├── context/
+│   │   │   ├── AuthContext.jsx
+│   │   │   └── ThemeContext.jsx
+│   │   │
+│   │   ├── redux/
+│   │   │   ├── store.js
+│   │   │   └── slices/
+│   │   │       ├── authSlice.js
+│   │   │       ├── projectSlice.js
+│   │   │       └── contactSlice.js
+│   │   │
+│   │   ├── services/
+│   │   │   ├── api.js
+│   │   │   ├── authService.js
+│   │   │   ├── projectService.js
+│   │   │   └── contactService.js
+│   │   │
+│   │   ├── hooks/
+│   │   │   ├── useAuth.js
+│   │   │   ├── useFetch.js
+│   │   │   └── useTheme.js
+│   │   │
+│   │   ├── utils/
+│   │   │   ├── animations.js
+│   │   │   ├── constants.js
+│   │   │   ├── helpers.js
+│   │   │   └── validations.js
+│   │   │
+│   │   ├── styles/
+│   │   │   ├── globals.css
+│   │   │   ├── animations.css
+│   │   │   └── scrollbar.css
+│   │   │
+│   │   ├── data/
+│   │   │   ├── skillsData.js
+│   │   │   ├── projectsData.js
+│   │   │   └── socialLinks.js
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
+│   ├── .env
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   └── README.md
+│
+│
+├── server/                                   # Backend
+│
+│   ├── config/
+│   │   ├── db.js
+│   │   └── cloudinary.js
+│   │
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── projectController.js
+│   │   ├── contactController.js
+│   │   ├── userController.js
+│   │   └── adminController.js
+│   │
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Project.js
+│   │   ├── Contact.js
+│   │   └── Admin.js
+│   │
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── projectRoutes.js
+│   │   ├── contactRoutes.js
+│   │   ├── userRoutes.js
+│   │   └── adminRoutes.js
+│   │
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   ├── adminMiddleware.js
+│   │   ├── errorMiddleware.js
+│   │   └── uploadMiddleware.js
+│   │
+│   ├── services/
+│   │   ├── emailService.js
+│   │   ├── tokenService.js
+│   │   └── uploadService.js
+│   │
+│   ├── utils/
+│   │   ├── generateToken.js
+│   │   ├── validators.js
+│   │   └── logger.js
+│   │
+│   ├── uploads/
+│   │   ├── projects/
+│   │   └── profiles/
+│   │
+│   ├── .env
+│   ├── server.js
+│   ├── package.json
+│   └── README.md
+│
+│
+├── docs/
+│   ├── api-documentation.md
+│   ├── setup-guide.md
+│   └── deployment-guide.md
+│
+├── .gitignore
+├── README.md
+└── package-lock.json
